@@ -1,0 +1,36 @@
+a[href ^="https"]{
+    color: green;
+}
+
+a[href = "https://link-academy.com"]{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+a[href $="/en-ro"]{
+    color: blue;
+}
+
+a[href $="/fr-ro"]{
+    color: cyan;
+}
+
+a[href $="/it-ro"]{
+    color: red;
+}
+
+#meniu{
+    list-style: none;
+}
+
+#meniu li{
+    display: inline-block;
+    padding: 5 15px;
+}
+
+a[data-info="external image"]{
+    color: #000;
+    border: 2px solid #000;
+}

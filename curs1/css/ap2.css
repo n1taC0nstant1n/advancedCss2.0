@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Header */
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: double 5px red;
+    padding: 10px 25px;
+}
+
+div > p{
+    color: brown;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+section{
+    border: 3px solid purple;
+}
+
+section > p {
+    color: #555;
+}
+
+div ~ p{
+    font-weight: bold;
+    font-style: oblique;;
+
+}

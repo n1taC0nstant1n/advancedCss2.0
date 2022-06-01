@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 600px;
+    margin: auto;
+}
+
+div{
+    background: purple;
+    border: 5px solid red;
+    padding: 15px;
+}
+div > p{
+    color: #000;
+}
+
+div > div{
+    background: #fff;
+}
+
+div > div > p{
+    color: red;
+}
+
+div > div > div{
+    background-color: aqua;
+}
+
+div > div > div p{
+    color: #000
+}
