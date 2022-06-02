@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    background: rgba(108,236,108,0.698);
+    margin: 0 5px;
+    padding: 10px;
+    color: white;
+    /* transform: scale(2, 1); */
+    /* transform: scaleZ(2); */
+    /* transform: skew(25deg, 25deg); */
+    transform: skewX(10deg);
+    transform: skewX(20deg);
+    opacity: .7;
+    /* transform: skewX(25deg); */
+    /* transform: skewY(25deg); */
+    /* transform: rotate(45deg);
+    transform: perspective(3); */
+    display: inline-block;
+    border-radius: 10px 15px 20px 25px;
+
+}
