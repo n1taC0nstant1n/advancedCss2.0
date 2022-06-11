@@ -1,0 +1,5 @@
+@media screen and(max-width: 799px){
+    img{
+        src: url('../img/ap3_480.jpg');
+    }
+}
