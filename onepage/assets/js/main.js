@@ -275,4 +275,49 @@
     })
   });
 
+  /*
+  * change before position 
+  */
+  // const chooseThemeIcons = document.querySelector('.choose-theme-icons');
+  // const colorIcons = document.querySelector('.choose-theme-icons-color');
+  // let currentTheme = localStorage.getItem('theme');
+  // chooseThemeIcons.addEventListener('click', function(){
+  //   if(colorIcons.classList.contains('right')){
+  //     colorIcons.classList.remove('right');
+  //     document.documentElement.setAttribute('data-theme', 'light');
+  //     let newTheme = localStorage.setItem('theme', 'light');
+  //     newTheme = currentTheme;
+
+  //   }else{
+  //     colorIcons.classList.add('right');
+  //     document.documentElement.setAttribute('data-theme', 'dark');
+  //     newTheme = localStorage.setItem('theme', 'dark');
+  //     newTheme = currentTheme;
+
+  //   }
+  // })
+  // Enable Dark Mode!
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    
+      }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
 })()
