@@ -1,0 +1,14 @@
+{
+  "name": "demoless",
+  "version": "1.0.0",
+  "description": "less demo app",
+  "main": "ap1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nita Constantin",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
