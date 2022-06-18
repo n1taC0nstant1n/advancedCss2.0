@@ -9,6 +9,7 @@
   "author": "Nita Constantin",
   "license": "ISC",
   "devDependencies": {
-    "less": "^4.1.3"
+    "less": "^4.1.3",
+    "sass": "^1.52.3"
   }
 }
